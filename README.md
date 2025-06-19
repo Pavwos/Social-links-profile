@@ -3,7 +3,7 @@
 Projeto simples feito com **HTML** e **CSS**, inspirado no desafio do [Frontend Mentor](https://www.frontendmentor.io/).
 
 ## 🔗 Link do projeto
-[👉 Ver projeto online](https://seulink.vercel.app)
+[👉 Ver projeto online](https://pavwos.github.io/Social-links-profile/)
 
 ## ✨ Funcionalidades
 
@@ -23,7 +23,7 @@ Projeto simples feito com **HTML** e **CSS**, inspirado no desafio do [Frontend 
 ## 🚀 Como rodar localmente
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
-abra o arquivo index.html no navegador
+git clone https://github.com/Pavwos/Social-links-profile.git
+cd Social-links-profile
+code .
 ```

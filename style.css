@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --green: #c4f82a;
+  --white: #ffffff;
+  --grey-700: #333333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+}
+
+
+html, body{
+  background-color: var(--grey-900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.box{
+  width: 320px;
+  background-color: var(--grey-800);
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+img{
+  margin: 28px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+h2{
+  margin: 0;
+  font-weight: 600;
+  color: var(--white);
+}
+p{
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--white);
+}
+
+h3{
+  font-size: 14px;
+  margin: 5px;
+  color: var(--green);
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkBadge{
+  margin: 8px;
+  padding: 15px 25px;
+  width: 280px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey-700);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.linkBadge:hover{
+  background-color: var(--green);
+  color: var(--grey-700);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
